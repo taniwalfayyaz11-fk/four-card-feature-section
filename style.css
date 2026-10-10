@@ -1,0 +1,81 @@
+body {
+  background: #f8f7f1;
+}
+
+header {
+  margin-left: 510px;
+  margin-top: 100px;
+  font-family: sans-serif;
+}
+header h2 {
+  font-weight: 100;
+  color: grey;
+  font-size: 30px;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+}
+header strong {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 601;
+  color: #333;
+}
+header p {
+  color: #666;
+  position: relative;
+  left: -75px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  top: -5px;
+}
+header span {
+  position: relative;
+  right: -80px;
+  bottom: -5px;
+}
+.hero h3 {
+  font-size: 23px;
+  font-family: sans-serif;
+}
+.hero p {
+  font-size: 14px;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 1.4;
+  color: #555;
+  position: relative;
+  top: -9px;
+  right: -3px;
+}
+.hero .card {
+  width: 290px;
+  padding: 11px 20px;
+  box-shadow: 0 0 1px;
+  background: white;
+  border-top: 4px solid red;
+  position: relative;
+  right: -500px;
+  bottom: -40px;
+  height: 202px;
+}
+.hero .card img {
+  position: relative;
+  right: -220px;
+  top: -10px;
+}
+
+.hero .card:nth-last-of-type(2) {
+  border-top: 4px solid #2b84ac;
+  position: relative;
+  right: -870px;
+  top: -290px;
+}
+.hero .card:nth-last-of-type(3) {
+  border-top: 4px solid #00b0aa;
+  transform: translate(-370px, -105px);
+}
+.hero .card:nth-last-of-type(1) {
+  border-top: 4px solid #e9ae5b;
+  position: relative;
+  top: -375px;
+}
